@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentSuccessComponent should match snapshot 1`] = `
+<app-payment-success>
+  <mat-card
+    class="mat-card"
+  >
+    <mat-card-header
+      class="mat-card-header"
+    >
+      <div
+        class="mat-card-header-text"
+      >
+        <mat-card-title
+          class="mat-card-title"
+        >
+          Your payment is confirmed
+        </mat-card-title>
+      </div>
+    </mat-card-header>
+  </mat-card>
+</app-payment-success>
+`;

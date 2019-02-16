@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Payment confirmation</mat-card-title>
+  </mat-card-header>
+  <mat-card-content  *ngIf="paymentRquest$ | async as paymentRquest">
+      <p class="mat-body-2">Narrative: {{paymentRquest.instruction.narrative}}</p>
+      <p class="mat-body-2">currency: {{paymentRquest.instruction.value.currency}}</p>
+      <p class="mat-body-2">Amount: {{paymentRquest.instruction.value.amount}}</p>
+      <p class="mat-body-2">Card type: {{paymentRquest.instruction.paymentInstrument.type}}</p>
+      <p class="mat-body-2">Card number: {{paymentRquest.instruction.paymentInstrument.cardNumber}}</p>
+      <p class="mat-body-2">Card holder name: {{paymentRquest.instruction.paymentInstrument.cardHolderName}}</p>
+  </mat-card-content>
+  <mat-card-actions *ngIf="authorizationResponse$ | async as authorizationResponse">
+    <button mat-raised-button type="button" color="primary" (click)="confirmPayment()">Confirm payment</button>
+    <button mat-raised-button type="button" color="secondary" (click)="cancelPayment(authorizationResponse)">Cancel payment</button>
+  </mat-card-actions>
+</mat-card>

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentCancelledComponent should match snapshot 1`] = `
+<app-payment-cancelled>
+  <mat-card
+    class="mat-card"
+  >
+    <mat-card-header
+      class="mat-card-header"
+    >
+      <div
+        class="mat-card-header-text"
+      >
+        <mat-card-title
+          class="mat-card-title"
+        >
+          Your payment has been cancelled
+        </mat-card-title>
+      </div>
+    </mat-card-header>
+  </mat-card>
+</app-payment-cancelled>
+`;

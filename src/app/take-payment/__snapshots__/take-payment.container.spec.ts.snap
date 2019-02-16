@@ -1,0 +1,805 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TakePaymentComponent should match snapshot 1`] = `
+<app-take-payment
+  cardTypes={[Function Array]}
+  currencies={[Function Array]}
+  formBuilder={[Function FormBuilder]}
+  instructionForm={[Function FormGroup]}
+  merchant={[Function Object]}
+  name={[Function FormControl]}
+  router={[Function Object]}
+  store={[Function Object]}
+  transactionReference={[Function String]}
+>
+  <form
+    class="ng-untouched ng-pristine ng-invalid"
+    ng-reflect-form="[object Object]"
+    novalidate=""
+  >
+    <mat-card
+      class="shipping-card mat-card"
+    >
+      <mat-card-header
+        class="mat-card-header"
+      >
+        <div
+          class="mat-card-header-text"
+        >
+          <mat-card-title
+            class="mat-card-title"
+          >
+            Payment instruction
+          </mat-card-title>
+        </div>
+      </mat-card-header>
+      <mat-card-content
+        class="mat-card-content"
+      >
+        <div
+          class="ng-untouched ng-pristine ng-invalid"
+          formgroupname="instruction"
+          ng-reflect-name="instruction"
+          novalidate=""
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col"
+            >
+              <mat-form-field
+                class="full-width mat-form-field ng-tns-c1-0 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid _mat-animation-noopable"
+              >
+                <div
+                  class="mat-form-field-wrapper"
+                >
+                  <div
+                    class="mat-form-field-flex"
+                  >
+                    
+                    
+                    <div
+                      class="mat-form-field-infix"
+                    >
+                      <input
+                        aria-invalid="false"
+                        aria-required="false"
+                        class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid"
+                        formcontrolname="narrative"
+                        id="mat-input-0"
+                        matinput=""
+                        ng-reflect-name="narrative"
+                        ng-reflect-placeholder="Narrative"
+                        placeholder="Narrative"
+                      />
+                      <span
+                        class="mat-form-field-label-wrapper"
+                      >
+                        
+                        <label
+                          aria-owns="mat-input-0"
+                          class="mat-form-field-label ng-tns-c1-0 mat-empty mat-form-field-empty ng-star-inserted"
+                          for="mat-input-0"
+                          id="mat-form-field-label-1"
+                          ng-reflect-disabled="true"
+                          ng-reflect-ng-switch="false"
+                        >
+                          
+                          
+                          Narrative
+                          
+                          
+                        </label>
+                      </span>
+                    </div>
+                    
+                  </div>
+                  
+                  <div
+                    class="mat-form-field-underline ng-tns-c1-0 ng-star-inserted"
+                  >
+                    <span
+                      class="mat-form-field-ripple"
+                    />
+                  </div>
+                  <div
+                    class="mat-form-field-subscript-wrapper"
+                    ng-reflect-ng-switch="hint"
+                  >
+                    
+                    
+                    <div
+                      class="mat-form-field-hint-wrapper ng-tns-c1-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                      style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                    >
+                      
+                      <div
+                        class="mat-form-field-hint-spacer"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </mat-form-field>
+            </div>
+          </div>
+          <div
+            class="ng-untouched ng-pristine ng-invalid"
+            formgroupname="value"
+            ng-reflect-name="value"
+            novalidate=""
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <mat-form-field
+                  class="full-width mat-form-field ng-tns-c1-1 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable"
+                >
+                  <div
+                    class="mat-form-field-wrapper"
+                  >
+                    <div
+                      class="mat-form-field-flex"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-infix"
+                      >
+                        <mat-select
+                          aria-disabled="false"
+                          aria-invalid="false"
+                          aria-label="Currency"
+                          aria-multiselectable="false"
+                          aria-required="false"
+                          class="mat-select ng-tns-c2-2 ng-untouched ng-pristine ng-invalid mat-select-empty ng-star-inserted"
+                          formcontrolname="currency"
+                          id="mat-select-0"
+                          ng-reflect-name="currency"
+                          ng-reflect-placeholder="Currency"
+                          placeholder="Currency"
+                          role="listbox"
+                          tabindex="0"
+                        >
+                          <div
+                            aria-hidden="true"
+                            cdk-overlay-origin=""
+                            class="mat-select-trigger"
+                          >
+                            <div
+                              class="mat-select-value"
+                              ng-reflect-ng-switch="true"
+                            >
+                              
+                              <span
+                                class="mat-select-placeholder ng-tns-c2-2 ng-star-inserted"
+                              >
+                                Currency
+                              </span>
+                              
+                            </div>
+                            <div
+                              class="mat-select-arrow-wrapper"
+                            >
+                              <div
+                                class="mat-select-arrow"
+                              />
+                            </div>
+                          </div>
+                          
+                        </mat-select>
+                        <span
+                          class="mat-form-field-label-wrapper"
+                        >
+                          
+                          <label
+                            aria-owns="mat-select-0"
+                            class="mat-form-field-label ng-tns-c1-1 mat-empty mat-form-field-empty ng-star-inserted"
+                            for="mat-select-0"
+                            id="mat-form-field-label-3"
+                            ng-reflect-disabled="true"
+                            ng-reflect-ng-switch="false"
+                          >
+                            
+                            
+                            Currency
+                            
+                            
+                          </label>
+                        </span>
+                      </div>
+                      
+                    </div>
+                    
+                    <div
+                      class="mat-form-field-underline ng-tns-c1-1 ng-star-inserted"
+                    >
+                      <span
+                        class="mat-form-field-ripple"
+                      />
+                    </div>
+                    <div
+                      class="mat-form-field-subscript-wrapper"
+                      ng-reflect-ng-switch="hint"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-hint-wrapper ng-tns-c1-1 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                        style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                      >
+                        
+                        <div
+                          class="mat-form-field-hint-spacer"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </mat-form-field>
+              </div>
+              <div
+                class="col"
+              >
+                <mat-form-field
+                  class="full-width mat-form-field ng-tns-c1-3 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable"
+                >
+                  <div
+                    class="mat-form-field-wrapper"
+                  >
+                    <div
+                      class="mat-form-field-flex"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-infix"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-required="false"
+                          class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid"
+                          formcontrolname="amount"
+                          id="mat-input-1"
+                          matinput=""
+                          ng-reflect-name="amount"
+                        />
+                        <span
+                          class="mat-form-field-label-wrapper"
+                        >
+                          
+                        </span>
+                      </div>
+                      
+                    </div>
+                    
+                    <div
+                      class="mat-form-field-underline ng-tns-c1-3 ng-star-inserted"
+                    >
+                      <span
+                        class="mat-form-field-ripple"
+                      />
+                    </div>
+                    <div
+                      class="mat-form-field-subscript-wrapper"
+                      ng-reflect-ng-switch="hint"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-hint-wrapper ng-tns-c1-3 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                        style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                      >
+                        
+                        <div
+                          class="mat-form-field-hint-spacer"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+          <div
+            class="ng-untouched ng-pristine ng-invalid"
+            formgroupname="paymentInstrument"
+            ng-reflect-name="paymentInstrument"
+            novalidate=""
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <mat-form-field
+                  class="full-width mat-form-field ng-tns-c1-4 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable"
+                >
+                  <div
+                    class="mat-form-field-wrapper"
+                  >
+                    <div
+                      class="mat-form-field-flex"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-infix"
+                      >
+                        <mat-select
+                          aria-disabled="false"
+                          aria-invalid="false"
+                          aria-label="Card type"
+                          aria-multiselectable="false"
+                          aria-required="false"
+                          class="mat-select ng-tns-c2-5 ng-untouched ng-pristine ng-invalid mat-select-empty ng-star-inserted"
+                          formcontrolname="type"
+                          id="mat-select-1"
+                          ng-reflect-name="type"
+                          ng-reflect-placeholder="Card type"
+                          placeholder="Card type"
+                          role="listbox"
+                          tabindex="0"
+                        >
+                          <div
+                            aria-hidden="true"
+                            cdk-overlay-origin=""
+                            class="mat-select-trigger"
+                          >
+                            <div
+                              class="mat-select-value"
+                              ng-reflect-ng-switch="true"
+                            >
+                              
+                              <span
+                                class="mat-select-placeholder ng-tns-c2-5 ng-star-inserted"
+                              >
+                                Card type
+                              </span>
+                              
+                            </div>
+                            <div
+                              class="mat-select-arrow-wrapper"
+                            >
+                              <div
+                                class="mat-select-arrow"
+                              />
+                            </div>
+                          </div>
+                          
+                        </mat-select>
+                        <span
+                          class="mat-form-field-label-wrapper"
+                        >
+                          
+                          <label
+                            aria-owns="mat-select-1"
+                            class="mat-form-field-label ng-tns-c1-4 mat-empty mat-form-field-empty ng-star-inserted"
+                            for="mat-select-1"
+                            id="mat-form-field-label-7"
+                            ng-reflect-disabled="true"
+                            ng-reflect-ng-switch="false"
+                          >
+                            
+                            
+                            Card type
+                            
+                            
+                          </label>
+                        </span>
+                      </div>
+                      
+                    </div>
+                    
+                    <div
+                      class="mat-form-field-underline ng-tns-c1-4 ng-star-inserted"
+                    >
+                      <span
+                        class="mat-form-field-ripple"
+                      />
+                    </div>
+                    <div
+                      class="mat-form-field-subscript-wrapper"
+                      ng-reflect-ng-switch="hint"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-hint-wrapper ng-tns-c1-4 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                        style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                      >
+                        
+                        <div
+                          class="mat-form-field-hint-spacer"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </mat-form-field>
+              </div>
+              <div
+                class="col"
+              >
+                <mat-form-field
+                  class="full-width mat-form-field ng-tns-c1-6 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable"
+                >
+                  <div
+                    class="mat-form-field-wrapper"
+                  >
+                    <div
+                      class="mat-form-field-flex"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-infix"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-required="false"
+                          class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid"
+                          formcontrolname="cardNumber"
+                          id="mat-input-2"
+                          matinput=""
+                          ng-reflect-name="cardNumber"
+                          ng-reflect-placeholder="Card number e.g. 67473 93828 2"
+                          placeholder="Card number e.g. 67473 93828 28283 9832"
+                        />
+                        <span
+                          class="mat-form-field-label-wrapper"
+                        >
+                          
+                          <label
+                            aria-owns="mat-input-2"
+                            class="mat-form-field-label ng-tns-c1-6 mat-empty mat-form-field-empty ng-star-inserted"
+                            for="mat-input-2"
+                            id="mat-form-field-label-9"
+                            ng-reflect-disabled="true"
+                            ng-reflect-ng-switch="false"
+                          >
+                            
+                            
+                            Card number e.g. 67473 93828 28283 9832
+                            
+                            
+                          </label>
+                        </span>
+                      </div>
+                      
+                    </div>
+                    
+                    <div
+                      class="mat-form-field-underline ng-tns-c1-6 ng-star-inserted"
+                    >
+                      <span
+                        class="mat-form-field-ripple"
+                      />
+                    </div>
+                    <div
+                      class="mat-form-field-subscript-wrapper"
+                      ng-reflect-ng-switch="hint"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-hint-wrapper ng-tns-c1-6 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                        style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                      >
+                        
+                        <div
+                          class="mat-form-field-hint-spacer"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+            <div
+              class="ng-untouched ng-pristine ng-valid"
+              formgroupname="cardExpiryDate"
+              ng-reflect-name="cardExpiryDate"
+              novalidate=""
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="col"
+                >
+                  <mat-form-field
+                    class="full-width mat-form-field ng-tns-c1-7 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid _mat-animation-noopable"
+                  >
+                    <div
+                      class="mat-form-field-wrapper"
+                    >
+                      <div
+                        class="mat-form-field-flex"
+                      >
+                        
+                        
+                        <div
+                          class="mat-form-field-infix"
+                        >
+                          <input
+                            aria-invalid="false"
+                            aria-required="false"
+                            class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid"
+                            formcontrolname="month"
+                            id="mat-input-3"
+                            matinput=""
+                            ng-reflect-name="month"
+                            ng-reflect-placeholder="Expiry month e.g. 01"
+                            placeholder="Expiry month e.g. 01"
+                          />
+                          <span
+                            class="mat-form-field-label-wrapper"
+                          >
+                            
+                            <label
+                              aria-owns="mat-input-3"
+                              class="mat-form-field-label ng-tns-c1-7 mat-empty mat-form-field-empty ng-star-inserted"
+                              for="mat-input-3"
+                              id="mat-form-field-label-11"
+                              ng-reflect-disabled="true"
+                              ng-reflect-ng-switch="false"
+                            >
+                              
+                              
+                              Expiry month e.g. 01
+                              
+                              
+                            </label>
+                          </span>
+                        </div>
+                        
+                      </div>
+                      
+                      <div
+                        class="mat-form-field-underline ng-tns-c1-7 ng-star-inserted"
+                      >
+                        <span
+                          class="mat-form-field-ripple"
+                        />
+                      </div>
+                      <div
+                        class="mat-form-field-subscript-wrapper"
+                        ng-reflect-ng-switch="hint"
+                      >
+                        
+                        
+                        <div
+                          class="mat-form-field-hint-wrapper ng-tns-c1-7 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                          style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                        >
+                          
+                          <div
+                            class="mat-form-field-hint-spacer"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </mat-form-field>
+                </div>
+                <div
+                  class="col"
+                >
+                  <mat-form-field
+                    class="full-width mat-form-field ng-tns-c1-8 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid _mat-animation-noopable"
+                  >
+                    <div
+                      class="mat-form-field-wrapper"
+                    >
+                      <div
+                        class="mat-form-field-flex"
+                      >
+                        
+                        
+                        <div
+                          class="mat-form-field-infix"
+                        >
+                          <input
+                            aria-invalid="false"
+                            aria-required="false"
+                            class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid"
+                            formcontrolname="year"
+                            id="mat-input-4"
+                            matinput=""
+                            ng-reflect-name="year"
+                            ng-reflect-placeholder="Expiry year e.g. 22"
+                            placeholder="Expiry year e.g. 22"
+                          />
+                          <span
+                            class="mat-form-field-label-wrapper"
+                          >
+                            
+                            <label
+                              aria-owns="mat-input-4"
+                              class="mat-form-field-label ng-tns-c1-8 mat-empty mat-form-field-empty ng-star-inserted"
+                              for="mat-input-4"
+                              id="mat-form-field-label-13"
+                              ng-reflect-disabled="true"
+                              ng-reflect-ng-switch="false"
+                            >
+                              
+                              
+                              Expiry year e.g. 22
+                              
+                              
+                            </label>
+                          </span>
+                        </div>
+                        
+                      </div>
+                      
+                      <div
+                        class="mat-form-field-underline ng-tns-c1-8 ng-star-inserted"
+                      >
+                        <span
+                          class="mat-form-field-ripple"
+                        />
+                      </div>
+                      <div
+                        class="mat-form-field-subscript-wrapper"
+                        ng-reflect-ng-switch="hint"
+                      >
+                        
+                        
+                        <div
+                          class="mat-form-field-hint-wrapper ng-tns-c1-8 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                          style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                        >
+                          
+                          <div
+                            class="mat-form-field-hint-spacer"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </mat-form-field>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="col"
+              >
+                <mat-form-field
+                  class="full-width mat-form-field ng-tns-c1-9 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid _mat-animation-noopable"
+                >
+                  <div
+                    class="mat-form-field-wrapper"
+                  >
+                    <div
+                      class="mat-form-field-flex"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-infix"
+                      >
+                        <input
+                          aria-invalid="false"
+                          aria-required="false"
+                          class="mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid"
+                          formcontrolname="cardHolderName"
+                          id="mat-input-5"
+                          matinput=""
+                          ng-reflect-name="cardHolderName"
+                          ng-reflect-placeholder="Name as it appears on the card"
+                          placeholder="Name as it appears on the card e.g. Mr D Bridges"
+                        />
+                        <span
+                          class="mat-form-field-label-wrapper"
+                        >
+                          
+                          <label
+                            aria-owns="mat-input-5"
+                            class="mat-form-field-label ng-tns-c1-9 mat-empty mat-form-field-empty ng-star-inserted"
+                            for="mat-input-5"
+                            id="mat-form-field-label-15"
+                            ng-reflect-disabled="true"
+                            ng-reflect-ng-switch="false"
+                          >
+                            
+                            
+                            Name as it appears on the card e.g. Mr D Bridges
+                            
+                            
+                          </label>
+                        </span>
+                      </div>
+                      
+                    </div>
+                    
+                    <div
+                      class="mat-form-field-underline ng-tns-c1-9 ng-star-inserted"
+                    >
+                      <span
+                        class="mat-form-field-ripple"
+                      />
+                    </div>
+                    <div
+                      class="mat-form-field-subscript-wrapper"
+                      ng-reflect-ng-switch="hint"
+                    >
+                      
+                      
+                      <div
+                        class="mat-form-field-hint-wrapper ng-tns-c1-9 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+                        style="opacity:1;transform:translateY(0%);0:opacity;1:transform;"
+                      >
+                        
+                        <div
+                          class="mat-form-field-hint-spacer"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+        </div>
+      </mat-card-content>
+      <mat-card-actions
+        class="mat-card-actions"
+      >
+        <button
+          class="mat-raised-button mat-primary _mat-animation-noopable"
+          color="primary"
+          disabled=""
+          mat-raised-button=""
+          ng-reflect-color="primary"
+          ng-reflect-disabled="true"
+          type="submit"
+        >
+          <span
+            class="mat-button-wrapper"
+          >
+            Proceed
+          </span>
+          <div
+            class="mat-button-ripple mat-ripple"
+            matripple=""
+            ng-reflect-centered="false"
+            ng-reflect-disabled="true"
+            ng-reflect-trigger="[object HTMLButtonElement]"
+          />
+          <div
+            class="mat-button-focus-overlay"
+          />
+        </button>
+        <button
+          class="mat-raised-button _mat-animation-noopable"
+          disabled=""
+          mat-raised-button=""
+          ng-reflect-disabled="true"
+          type="reset"
+        >
+          <span
+            class="mat-button-wrapper"
+          >
+            Revert
+          </span>
+          <div
+            class="mat-button-ripple mat-ripple"
+            matripple=""
+            ng-reflect-centered="false"
+            ng-reflect-disabled="true"
+            ng-reflect-trigger="[object HTMLButtonElement]"
+          />
+          <div
+            class="mat-button-focus-overlay"
+          />
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</app-take-payment>
+`;

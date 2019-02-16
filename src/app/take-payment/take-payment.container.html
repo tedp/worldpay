@@ -1,0 +1,88 @@
+<form [formGroup]="instructionForm" (ngSubmit)="onSubmit()" novalidate>
+  <mat-card class="shipping-card">
+    <mat-card-header>
+      <mat-card-title>Payment instruction</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <div formGroupName="instruction" novalidate>
+
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input matInput placeholder="Narrative" formControlName="narrative">
+            </mat-form-field>
+          </div>
+        </div>
+  
+        <div formGroupName="value" novalidate>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width">
+                <mat-select placeholder="Currency" formControlName="currency">
+                  <mat-option *ngFor="let currency of currencies" [value]="currency">
+                    {{ currency }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col">
+              <mat-form-field class="full-width">
+                <input matInput formControlName="amount">
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+
+        <div formGroupName="paymentInstrument" novalidate>
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width">
+                <mat-select placeholder="Card type" formControlName="type">
+                  <mat-option *ngFor="let cardType of cardTypes" [value]="cardType">
+                    {{ cardType }}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+
+            <div class="col">
+              <mat-form-field class="full-width">
+                <input matInput placeholder="Card number e.g. 67473 93828 28283 9832" formControlName="cardNumber">
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div formGroupName="cardExpiryDate" novalidate>
+            <div class="row">
+              <div class="col">
+                <mat-form-field class="full-width">
+                  <input matInput placeholder="Expiry month e.g. 01" formControlName="month">
+                </mat-form-field>
+              </div>
+              <div class="col">
+                <mat-form-field class="full-width">
+                  <input matInput placeholder="Expiry year e.g. 22" formControlName="year">
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="col">
+              <mat-form-field class="full-width">
+                <input matInput placeholder="Name as it appears on the card e.g. Mr D Bridges" formControlName="cardHolderName">
+              </mat-form-field>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+        
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button type="submit" color="primary" [disabled]="instructionForm.pristine">Proceed</button>
+      <button mat-raised-button type="reset" (click)="revert()" [disabled]="instructionForm.pristine">Revert</button>
+    </mat-card-actions>
+  </mat-card>
+</form>

@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmPaymentComponent should match snapshot 1`] = `
+<app-confirm-payment
+  authorizationResponse$={[Function Store]}
+  paymentRquest$={[Function Store]}
+  router={[Function Router]}
+  store={[Function Store]}
+>
+  <mat-card
+    class="mat-card"
+  >
+    <mat-card-header
+      class="mat-card-header"
+    >
+      <div
+        class="mat-card-header-text"
+      >
+        <mat-card-title
+          class="mat-card-title"
+        >
+          Payment confirmation
+        </mat-card-title>
+      </div>
+    </mat-card-header>
+    
+    
+  </mat-card>
+</app-confirm-payment>
+`;
